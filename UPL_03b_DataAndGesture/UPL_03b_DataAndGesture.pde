@@ -109,7 +109,7 @@ void draw()
       //time steps
       pushStyle();
       float d = dist(0,height,0,handPosition);
-      if(d<rad+4&&d>rad-4)
+      if(d<rad+6&&d>rad-6)
       {
         stroke(255,192,0);
         selected = true;
