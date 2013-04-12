@@ -10,8 +10,10 @@ int[] faceLabels = {PXCMFaceAnalysis.Landmark.LABEL_LEFT_EYE_OUTER_CORNER,
                   PXCMFaceAnalysis.Landmark.LABEL_MOUTH_LEFT_CORNER,
                   PXCMFaceAnalysis.Landmark.LABEL_MOUTH_RIGHT_CORNER};
 
-ArrayList<PXCMPoint3DF32> facePts = new ArrayList<PXCMPoint3DF32>();
-ArrayList<PXCMRectU32> faceBoxes = new ArrayList<PXCMRectU32>();
+ArrayList<FaceP5> faces = new ArrayList<FaceP5>();
+ArrayList<PXCMPoint3DF32> lmarks = new ArrayList<PXCMPoint3DF32>();
+PXCMFaceAnalysis.Detection.Data fdata = new PXCMFaceAnalysis.Detection.Data();
+PXCMFaceAnalysis.Landmark.LandmarkData lmark = new PXCMFaceAnalysis.Landmark.LandmarkData();
 
 void setup()
 {
@@ -23,47 +25,35 @@ void setup()
 
 void draw()
 {
-  if(session.AcquireFrame(true))
+  if(session.AcquireFrame(false))
   {
     session.QueryRGB(rgbTex);
-    facePts.clear();
-    faceBoxes.clear();
+    faces.clear();
+    lmarks.clear();
     
     for(int i=0;;++i)
     {
       long[] ft = new long[2];
       if(!session.QueryFaceID(i,ft))
         break;
-      PXCMFaceAnalysis.Detection.Data fdata = new PXCMFaceAnalysis.Detection.Data();
+
       if(session.QueryFaceLocationData((int)ft[0], fdata))
       {
-        faceBoxes.add(fdata.rectangle);
-        
-        PXCMFaceAnalysis.Landmark.LandmarkData lmark = new PXCMFaceAnalysis.Landmark.LandmarkData();
         for(int f=0;f<faceLabels.length;++f)
         { 
           if(session.QueryFaceLandmarkData((int)ft[0],faceLabels[f], 0, lmark))
           {
-            facePts.add(lmark.position);
+            lmarks.add(lmark.position);
           }
         }
+        faces.add(new FaceP5(fdata, lmarks));
       }
     }
     session.ReleaseFrame();
   }
   image(rgbTex,0,0);
-  pushStyle();
-  stroke(255);
-  noFill();
-  for(int f=0;f<faceBoxes.size();++f)
+  for(int i=0;i<faces.size();++i)
   {
-    PXCMRectU32 faceLoc = (PXCMRectU32)faceBoxes.get(f);
-    rect(faceLoc.x,faceLoc.y,faceLoc.w,faceLoc.h);
+    faces.get(i).debugDraw();
   }
-  for(int g=0;g<facePts.size();++g)
-  {
-    PXCMPoint3DF32 facePt = (PXCMPoint3DF32)facePts.get(g);
-    ellipse(facePt.x,facePt.y,5,5);
-  }  
-  popStyle();
 }
