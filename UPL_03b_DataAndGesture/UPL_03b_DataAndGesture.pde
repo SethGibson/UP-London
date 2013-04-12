@@ -31,7 +31,7 @@ void setup()
   session = new PXCUPipeline(this);
   session.Init(PXCUPipeline.GESTURE);
   
-  size(800,800,P2D);
+  size(800,800);
   ellipseMode(RADIUS);
 
   arial = loadFont("Arial-BoldMT-24.vlw");
@@ -109,7 +109,7 @@ void draw()
       //time steps
       pushStyle();
       float d = dist(0,height,0,handPosition);
-      if(d<rad+6&&d>rad-6)
+      if(d<rad+5&&d>rad-5)
       {
         stroke(255,192,0);
         selected = true;

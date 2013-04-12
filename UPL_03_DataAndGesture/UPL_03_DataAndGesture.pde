@@ -23,7 +23,7 @@ JSONArray windArray;
 
 void setup()
 {
-  size(800,800,P2D);
+  size(800,800);
   ellipseMode(RADIUS);
 
   arial = loadFont("Arial-BoldMT-24.vlw");

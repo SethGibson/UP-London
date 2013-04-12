@@ -22,6 +22,8 @@ ArrayList<String> days = new ArrayList(Arrays.asList("Friday","Thursday","Wednes
 HashMap windTable;
 HashMap<String,Integer> dayColors = new HashMap<String,Integer>();
 
+PImage labelMap;
+
 JSONObject jsonRoot;
 JSONArray weatherArray;
 
@@ -59,12 +61,15 @@ void setup()
   
   session = new PXCUPipeline(this);
   session.Init(PXCUPipeline.GESTURE);
+  labelMap = createImage(320,240,RGB);
 }
 
 void draw()
 {
+  
   if(session.AcquireFrame(false))
   {
+    session.QueryLabelMapAsImage(labelMap);
     //distance first
     PXCMGesture.GeoNode node = new PXCMGesture.GeoNode();
     
@@ -83,37 +88,30 @@ void draw()
     PXCMGesture.Gesture gest = new PXCMGesture.Gesture();
     if(session.QueryGesture(PXCMGesture.GeoNode.LABEL_BODY_HAND_PRIMARY, gest))
     {
-      if(gest.active&&gest.label==PXCMGesture.Gesture.LABEL_POSE_THUMB_UP)
-        navMode = !navMode;
+      //dostuff();
     }    
     session.ReleaseFrame();
   }
+  float d = dist(priHandPos.x,0,secHandPos.x,0)*0.5;
+  float newMin = map(d,0,0.2,50,500);
+  setDepths(-newMin,newMin);
+  handsVector = PVector.sub(priHandPos,secHandPos);
+  angleBetween = handsVector.heading();
+  angleBetween = lerp(pAngleBetween, angleBetween, 0.001);
+  
+  background(0);
   pushStyle();
   fill(255);
   if(navMode)
-    text("Rotation",mouseX,mouseY);
+    text("Rotate",5,20);
   else
-    text("Scaling",mouseX,mouseY);
+    text("Scale",5,20);
   popStyle();
-  if(!navMode)
-  {
-    float d = dist(priHandPos.x,0,secHandPos.x,0)*0.5;
-    float newMin = map(d,0,0.2,50,500);
-    setDepths(-newMin,newMin);
-  }
-  else
-  {
-    handsVector = PVector.sub(priHandPos,secHandPos);
-    angleBetween = handsVector.heading();
-    angleBetween = lerp(pAngleBetween, angleBetween, 0.2);
-  }
-  
-  background(0);
   setLights();
   pushMatrix();
   translate(width/2,height/2,0);
   rotateY(radians(90));
-  rotateY(radians(map(angleBetween,-5,5,-180,180)));
+  //rotateY(radians(map(angleBetween,-5,5,-180,180)));
   pAngleBetween = angleBetween;
   
   //draw days and timesteps
@@ -176,4 +174,11 @@ void draw()
     }
   }  
   popMatrix();
+  image(labelMap,width-320,height-240);
+}
+
+void stop()
+{
+  session.Close();
+  super.stop();
 }
