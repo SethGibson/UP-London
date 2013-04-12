@@ -1,0 +1,42 @@
+Site Code,Site Name,Country,Continent,Start Time,Day,Date,Time Step,Wind Direction,Wind Speed,Screen Temperature,Significant Weather,Relative Humidity,Visibility Range,Visibility Description,Wind Gust,Feels Like Temperature,UV Index,Precipitation Probability
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",0,"NE",10,2,"(Black) Low-level cloud",61,"< 20000 m","Good",25,-3,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",3,"ENE",12,1,"(Black) Low-level cloud",74,"< 20000 m","Good",27,-4,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",6,"ENE",11,0,"(Black) Low-level cloud",78,"< 10000 m","Moderate",24,-5,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",9,"ENE",14,1,"(White) Medium-level cloud",67,"< 20000 m","Good",29,-4,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",12,"ENE",16,1,"(White) Medium-level cloud",56,"< 20000 m","Good",34,-4,2,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",15,"ENE",16,2,"Sunny intervals",50,"< 20000 m","Good",35,-2,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",18,"ENE",13,2,"Sunny intervals",51,"< 20000 m","Good",31,-2,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",21,"NE",11,1,"Partly cloudy (Night)",63,"< 20000 m","Good",24,-3,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",24,"NE",10,0,"Partly cloudy (Night)",66,"< 20000 m","Good",22,-4,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",27,"NE",9,-1,"Partly cloudy (Night)",70,"< 20000 m","Good",21,-5,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",30,"NE",9,-1,"(White) Medium-level cloud",71,"< 20000 m","Good",20,-5,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",33,"ENE",14,0,"(Black) Low-level cloud",63,"< 40000 m","Very good",28,-5,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",36,"ENE",15,2,"(White) Medium-level cloud",60,"< 40000 m","Very good",32,-3,3,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",39,"ENE",14,2,"(Black) Low-level cloud",55,"< 40000 m","Very good",30,-3,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",42,"ENE",12,2,"(White) Medium-level cloud",54,"< 40000 m","Very good",27,-2,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",45,"NE",9,1,"(White) Medium-level cloud",61,"< 40000 m","Very good",20,-3,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",48,"NE",8,0,"(White) Medium-level cloud",66,"< 40000 m","Very good",18,-4,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",51,"NE",8,-1,"Partly cloudy (Night)",68,"< 40000 m","Very good",17,-4,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",54,"NE",8,-1,"Sunny intervals",75,"< 40000 m","Very good",15,-4,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",57,"ENE",12,2,"(White) Medium-level cloud",63,"< 40000 m","Very good",23,-3,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",60,"ENE",12,3,"(Black) Low-level cloud",54,"< 40000 m","Very good",25,0,2,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",63,"ENE",11,4,"(Black) Low-level cloud",49,"< 40000 m","Very good",23,1,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",66,"ENE",10,2,"Sunny intervals",57,"< 40000 m","Very good",23,-1,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",69,"NE",7,1,"(White) Medium-level cloud",64,"< 40000 m","Very good",16,-1,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",72,"NNE",7,0,"Light snow shower (Night)",72,"< 40000 m","Very good",15,-3,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",75,"NNE",7,0,"(Black) Low-level cloud",79,"< 40000 m","Very good",13,-2,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",78,"NNE",7,0,"(White) Medium-level cloud",76,"< 40000 m","Very good",14,-3,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",81,"NE",8,2,"(White) Medium-level cloud",73,"< 40000 m","Very good",17,-2,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",84,"NE",8,4,"(Black) Low-level cloud",58,"< 40000 m","Very good",19,1,2,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",87,"NE",8,5,"(Black) Low-level cloud",49,"< 40000 m","Very good",17,2,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",90,"NE",8,3,"(Black) Low-level cloud",57,"< 40000 m","Very good",19,1,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",93,"ENE",8,1,"(White) Medium-level cloud",71,"< 40000 m","Very good",17,-2,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",96,"ENE",8,0,"(White) Medium-level cloud",80,"< 40000 m","Very good",15,-3,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",99,"NE",8,-1,"(White) Medium-level cloud",83,"< 40000 m","Very good",17,-5,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",102,"NE",10,-1,"(White) Medium-level cloud",86,"< 20000 m","Good",21,-5,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",105,"ENE",11,1,"(Black) Low-level cloud",83,"< 20000 m","Good",23,-3,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",108,"NE",10,2,"Sleet",92,"< 1000 m","Very poor",22,-3,1,60
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",111,"ENE",13,3,"Light rain",80,"< 10000 m","Moderate",27,-2,1,60
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",114,"ENE",12,2,"Light rain",86,"< 10000 m","Moderate",26,-2,1,60
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",117,"ENE",11,1,"Sleet",89,"< 10000 m","Moderate",21,-2,0,60
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Monday","2013-03-25",120,"ENE",9,1,"Light snow",93,"< 10000 m","Moderate",20,-2,0,60

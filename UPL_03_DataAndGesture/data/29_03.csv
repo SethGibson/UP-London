@@ -1,0 +1,42 @@
+Site Code,Site Name,Country,Continent,Start Time,Day,Date,Time Step,Wind Direction,Wind Speed,Screen Temperature,Significant Weather,Relative Humidity,Visibility Range,Visibility Description,Wind Gust,Feels Like Temperature,UV Index,Precipitation Probability
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",0,"NNE",7,1,"(Black) Low-level cloud",65,"< 20000 m","Good",15,-2,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",3,"NNE",6,-1,"Partly cloudy (Night)",83,"< 20000 m","Good",13,-4,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",6,"NNE",6,-1,"Sunny (Day)",89,"< 10000 m","Moderate",14,-5,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",9,"ENE",7,1,"Sunny intervals",73,"< 20000 m","Good",16,-2,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",12,"ENE",10,4,"(White) Medium-level cloud",55,"< 20000 m","Good",23,0,2,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",15,"ENE",10,5,"(Black) Low-level cloud",50,"< 40000 m","Very good",24,1,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",18,"ENE",10,3,"(White) Medium-level cloud",58,"< 40000 m","Very good",24,0,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",21,"ENE",8,1,"Clear sky (Night)",71,"< 40000 m","Very good",21,-2,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",24,"NE",7,-1,"Partly cloudy (Night)",80,"< 20000 m","Good",17,-4,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",27,"NNE",7,-1,"(White) Medium-level cloud",88,"< 20000 m","Good",16,-5,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",30,"NNE",7,-2,"(White) Medium-level cloud",92,"< 10000 m","Moderate",15,-5,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",33,"NNE",10,2,"(White) Medium-level cloud",71,"< 40000 m","Very good",20,-2,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",36,"NE",11,5,"(Black) Low-level cloud",54,"< 40000 m","Very good",25,1,2,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",39,"NE",10,5,"(Black) Low-level cloud",51,"< 40000 m","Very good",24,1,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",42,"NE",10,4,"(White) Medium-level cloud",58,"< 40000 m","Very good",23,0,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",45,"NE",8,2,"Partly cloudy (Night)",70,"< 40000 m","Very good",19,-1,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",48,"NNE",6,0,"Clear sky (Night)",79,"< 40000 m","Very good",14,-2,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",51,"NNE",5,-1,"Partly cloudy (Night)",85,"< 40000 m","Very good",12,-3,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",54,"NNE",6,-2,"Sunny (Day)",90,"< 20000 m","Good",12,-4,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",57,"NE",9,2,"Sunny (Day)",69,"< 40000 m","Very good",17,-2,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",60,"ENE",9,5,"(White) Medium-level cloud",50,"< 40000 m","Very good",21,2,3,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",63,"ENE",10,6,"(Black) Low-level cloud",43,"< 40000 m","Very good",22,3,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",66,"ENE",10,4,"Sunny intervals",54,"< 40000 m","Very good",21,1,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",69,"ENE",9,2,"Clear sky (Night)",62,"< 40000 m","Very good",19,-1,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",72,"NE",7,0,"Clear sky (Night)",80,"< 40000 m","Very good",16,-2,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",75,"NE",7,-1,"Clear sky (Night)",82,"< 40000 m","Very good",13,-4,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",78,"NE",8,-1,"Sunny (Day)",84,"< 40000 m","Very good",16,-5,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",81,"ENE",13,3,"Sunny (Day)",65,"< 40000 m","Very good",23,-2,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",84,"ENE",13,5,"Sunny intervals",50,"< 40000 m","Very good",28,2,3,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",87,"ENE",13,6,"Sunny intervals",42,"< 40000 m","Very good",25,3,1,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",90,"ENE",13,5,"(White) Medium-level cloud",56,"< 40000 m","Very good",29,2,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",93,"NE",11,2,"Clear sky (Night)",72,"< 40000 m","Very good",22,-1,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",96,"NE",8,1,"Partly cloudy (Night)",79,"< 40000 m","Very good",19,-1,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",99,"NNE",7,0,"Clear sky (Night)",82,"< 40000 m","Very good",13,-2,0,5
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",102,"NNE",7,0,"(White) Medium-level cloud",90,"< 20000 m","Good",15,-3,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",105,"NE",10,3,"Sunny intervals",81,"< 40000 m","Very good",17,-1,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",108,"NE",12,4,"(White) Medium-level cloud",83,"< 20000 m","Good",24,0,3,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",111,"NE",14,6,"Light rain shower (Day)",55,"< 40000 m","Very good",26,2,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",114,"NE",12,4,"Sunny intervals",58,"< 40000 m","Very good",26,1,1,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",117,"NE",10,2,"Clear sky (Night)",74,"< 40000 m","Very good",19,-2,0,20
+"352409","LONDON (352409)","ENGLAND","EUROPE","00:00","Friday","2013-03-29",120,"NNE",8,0,"Clear sky (Night)",88,"< 40000 m","Very good",18,-4,0,5
