@@ -14,3 +14,4 @@ Processing sketches from the Urban Prototyping London Festival Workshop on Data 
 * <b>UPL_04b_Data3D:</b> 3D data visualization w/ gesture control
   * Move hands closer or further together to scale
   * Move hands in and out to rotate the data
+* <b>UPL_05_FaceTracking:</b> Face detection and landmark tracking
