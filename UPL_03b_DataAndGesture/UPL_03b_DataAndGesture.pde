@@ -31,7 +31,7 @@ void setup()
   session = new PXCUPipeline(this);
   session.Init(PXCUPipeline.GESTURE);
   
-  size(800,800);
+  size(800,800,P2D);
   ellipseMode(RADIUS);
 
   arial = loadFont("Arial-BoldMT-24.vlw");

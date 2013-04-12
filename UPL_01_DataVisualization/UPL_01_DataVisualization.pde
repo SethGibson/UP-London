@@ -28,7 +28,7 @@ void setup()
     println(e.getMessage());
   }
   
-  size(500,500);
+  size(500,500,P2D);
   background(0);
   noFill();
   strokeWeight(1);  

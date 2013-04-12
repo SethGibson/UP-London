@@ -15,7 +15,7 @@ int[] fingerLabels = {PXCMGesture.GeoNode.LABEL_FINGER_THUMB,
 
 void setup()
 {
-  size(640,240);
+  size(640,240,P2D);
   session = new PXCUPipeline(this);
   session.Init(PXCUPipeline.COLOR_VGA|PXCUPipeline.GESTURE);
   

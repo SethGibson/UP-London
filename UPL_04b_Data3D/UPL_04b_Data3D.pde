@@ -4,7 +4,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import java.util.*;
 
-boolean showindVectoray = true;
+boolean showDay = true;
+//true = rotate, false = scale
+boolean navMode = false;
+
 int[] windSpeedMinMax;
 int[] windGustMinMax;
 
@@ -73,23 +76,44 @@ void draw()
     }
     if(session.QueryGeoNode(PXCMGesture.GeoNode.LABEL_BODY_HAND_SECONDARY, node))
     {
-      secHandPos.x = node.positionWorld.x;
-      secHandPos.y = node.positionWorld.y;
+        secHandPos.x = node.positionWorld.x;
+        secHandPos.y = node.positionWorld.y;
+    }
+
+    PXCMGesture.Gesture gest = new PXCMGesture.Gesture();
+    if(session.QueryGesture(PXCMGesture.GeoNode.LABEL_BODY_HAND_PRIMARY, gest))
+    {
+      if(gest.active&&gest.label==PXCMGesture.Gesture.LABEL_POSE_THUMB_UP)
+        navMode = !navMode;
     }    
     session.ReleaseFrame();
   }
+  pushStyle();
+  fill(255);
+  if(navMode)
+    text("Rotation",mouseX,mouseY);
+  else
+    text("Scaling",mouseX,mouseY);
+  popStyle();
+  if(!navMode)
+  {
+    float d = dist(priHandPos.x,0,secHandPos.x,0)*0.5;
+    float newMin = map(d,0,0.2,50,500);
+    setDepths(-newMin,newMin);
+  }
+  else
+  {
+    handsVector = PVector.sub(priHandPos,secHandPos);
+    angleBetween = handsVector.heading();
+    angleBetween = lerp(pAngleBetween, angleBetween, 0.2);
+  }
   
-  float d = dist(priHandPos.x,priHandPos.y,secHandPos.x,secHandPos.y)*0.5;
-  float newMin = map(d,0,0.2,50,500);
-  setDepths(-newMin,newMin);
-  
-  handsVector = PVector.sub(priHandPos,secHandPos);
-  angleBetween = lerp(pAngleBetween, handsVector.heading(), 0.2);
   background(0);
   setLights();
   pushMatrix();
   translate(width/2,height/2,0);
-  rotateY(radians(90+map(angleBetween,-3,3,-180,180)));
+  rotateY(radians(90));
+  rotateY(radians(map(angleBetween,-5,5,-180,180)));
   pAngleBetween = angleBetween;
   
   //draw days and timesteps
@@ -123,7 +147,7 @@ void draw()
       String windDir = current.getString("Wind Direction (Day)");
       int windSpeed = current.getInt("Wind Speed (Day)");
       int windGust = current.getInt("Wind Gust (Day)");
-      if(!showindVectoray)
+      if(!showDay)
       {
         windDir = current.getString("Wind Direction (Night)");
         windSpeed = current.getInt("Wind Speed (Night)");
