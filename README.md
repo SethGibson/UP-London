@@ -16,4 +16,4 @@ Processing sketches from the Urban Prototyping London Festival Workshop on Data 
   * Move hands in and out to rotate the data
 * <b>UPL_05_FaceTracking:</b> Face detection and landmark tracking
 
-<i>This code is provided as-is with no warranty, support, or otherwise safety nets of any sort.  Please do feel free to send me a message or email if you have any questions and I'll try to answer them in a timely fashion.</i>
+<i>This code is provided as-is with no warranty, support, or otherwise safety nets of any sort.  Please do feel free to send me a message or email if you have any questions and I'll try to answer them in a timely fashion.  You can do whatever you want with it, re-use it, remix it, sell it, share it, whatever, but I'm not responsible for any damage or illegal actions you may end up perpetrating upon your or anyone else's system, property, or possessions.</i>
